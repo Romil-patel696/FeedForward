@@ -36,4 +36,4 @@ Feed Forward is a web-based application designed to reduce food wastage by conne
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/feed-forward.git
+   git clone https://github.com/Romil-patel696/FeedForward
