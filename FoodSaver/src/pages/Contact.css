@@ -1,0 +1,70 @@
+.container.contact {
+    max-width: 800px;
+    margin: 100px auto auto auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .padd{
+    padding-top: 20px;
+  }
+  
+  .send-btn{
+    padding-bottom: 20px;
+  }
+  
+  .card h1 {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    margin: -20px -20px 20px;
+    font-size: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control-lg {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  

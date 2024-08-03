@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="navbar scrolled ">
       <div className='nav-bdy' >
         <span className="navbar-brand" >
-          <Link to="/">
+          <Link to="/" style={{textDecoration :'none' }}>
             <span style={{ color: 'red', fontWeight: 'bold' }}>Feed-</span>
             <span style={{ color: 'white', fontWeight: 'bold' }}>Forward</span>
           </Link>
@@ -58,9 +58,18 @@ const Navbar = () => {
               <NavLink
                 className="nav-link"
                 exact="true"
-                to="/contact-us"
+                to="/contact"
               >
                 Contact
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                exact="true"
+                to="/dashboard"
+              >
+                Dashboard
               </NavLink>
             </li>
             {user ? (
@@ -69,15 +78,15 @@ const Navbar = () => {
                   <NavLink
                     className="nav-link"
                     exact="true"
-                    to="/profile"
+                    to="/dashboard"
                   >
-                    Profile
+                    Dashboard
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <button
                     type="button"
-                    className="btn "
+                    className="nav-btn "
                     onClick={handleLogout}
                   >
                     Log Out
@@ -92,7 +101,7 @@ const Navbar = () => {
                     exact="true"
                     to="/signin"
                   >
-                    <button type="button" className="btn btn-outline-success">
+                    <button type="button" className="nav-btn btn-outline-success">
                       Log in
                     </button>
                   </NavLink>
@@ -103,7 +112,7 @@ const Navbar = () => {
                     exact="true"
                     to="/signup"
                   >
-                    <button type="button" className="btn btn-outline-danger">
+                    <button type="button" className="nav-btn btn-outline-danger">
                       Sign up
                     </button>
                   </NavLink>

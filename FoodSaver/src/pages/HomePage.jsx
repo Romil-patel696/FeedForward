@@ -1,34 +1,33 @@
 import React from 'react';
 import './HomePage.css';
 import { Link } from 'react-router-dom';
+import Hero from '../components/Hero';
+import Notify from '../assets/How-to-Sort-Push-Notifications.png'
+import Reliabl from '../assets/Refinements-1_0003_Graphic-11-Reliable-Secure-1.png';
+import easyImg from '../assets/easytouse2.png'
 
 const HomePage = () => {
   return (
     <div className="home-page">
       {/* Hero Section */}
-      <section className="hero">
-        <div className="hero-content">
-          <h1>Welcome to FeedForward</h1>
-          <p>Connecting excess food with those in need.</p>
-        </div>
-      </section>
+      <Hero hero="defaultHero"></Hero>
 
       {/* Features Section */}
       <section className="features">
         <h2>Our Features</h2>
         <div className="feature-list">
           <div className="feature">
-            <img src="path/to/icon1.png" alt="Feature 1" />
+            <img src={easyImg} />
             <h3>Easy to Use</h3>
             <p>Post and claim food with just a few clicks.</p>
           </div>
           <div className="feature">
-            <img src="path/to/icon2.png" alt="Feature 2" />
+            <img src={Notify} alt="Feature 2" />
             <h3>Real-Time Notifications</h3>
             <p>Stay updated with the latest food posts.</p>
           </div>
           <div className="feature">
-            <img src="path/to/icon3.png" alt="Feature 3" />
+            <img src={Reliabl} alt="Feature 3" />
             <h3>Secure and Reliable</h3>
             <p>Your data is safe with us.</p>
           </div>
@@ -76,8 +75,10 @@ const HomePage = () => {
       {/* Call to Action Section */}
       <section className="call-to-action">
         <h2>Join Us in Making a Difference</h2>
-        
-        <Link to="/register"><button >Get Started</button></Link>
+        <p>Together, we can reduce food waste and feed those in need.</p>
+        <Link to="/signup">
+          <button>Get Started</button>
+        </Link>
       </section>
     </div>
   );

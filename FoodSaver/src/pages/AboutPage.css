@@ -1,0 +1,148 @@
+ .container {
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 14vh;
+  } 
+   
+  
+  .about-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-col {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lead {
+    margin-bottom: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .my-5 {
+    margin: 50px 0;
+  }
+  
+  .btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial-col {
+    flex: 1;
+  }
+  
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel-inner {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .carousel-item {
+    display: none;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-content {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background: none;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .team {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-col {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ 

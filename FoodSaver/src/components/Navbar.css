@@ -1,8 +1,7 @@
 .navbar {
-
   background-color: black !important;
   background-color: transparent;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -14,9 +13,8 @@
 
 
 .navbar-brand {
-  font-size: 32px !important;
+  font-size: 2.5vw;
   cursor: pointer;
-  color: #ffffff !important;
   display: inline-block;
 }
 .nav-bdy{
@@ -25,7 +23,7 @@
 
 .navbar-nav{
   display: flex;
-  margin-left: 20vw;
+  margin-left: 5vw;
 }
 
 .nav-link {
@@ -51,17 +49,10 @@
   color: red;
 }
 
-.nav-link.active_class {
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  font-weight: 800;
-}
-
-.btn {
+.nav-btn {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: .25rem;
-  color: #212529;
   display: inline-block;
   font-size: 1rem;
   font-weight: 400;
@@ -69,7 +60,7 @@
   padding: .375rem .75rem;
   text-align: center;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  -webkit-user-select: none;
+  -webkit-user-select: none; 
   -ms-user-select: none;
   user-select: none;
   vertical-align: middle;
@@ -79,7 +70,7 @@
 .btn-outline-success {
   transition: background-color 0.3s, color 0.3s;
   border-color: #28a745;
-  color: #28a745;
+  color: #23b445;
 }
 
 .btn-outline-danger {
@@ -89,8 +80,13 @@
 }
 
 
-.btn-outline-danger:hover, .btn-outline-success:hover {
-  background-color: white;
-  color: black;
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: rgb(255, 251, 251);
+}
+
+.btn-outline-success:hover {
+  background-color:  #28a745;
+  color: rgb(255, 255, 255);
 }
 /* ////////////////////////////////// */

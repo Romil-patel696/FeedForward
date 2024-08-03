@@ -1,0 +1,90 @@
+/* General styling for the container */
+.signup-container {
+    width: 70%;
+    margin: 100px auto;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the heading */
+  .signup-heading {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Styling for the alert box */
+  [role="alert"] {
+    margin-bottom: 16px;
+    padding: 12px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+  }
+  
+  /* Styling for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Styling for the form groups */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  /* Styling for the form controls */
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the phone input */
+  .phone-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the custom button */
+  .form-button button {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .form-button button:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+  }
+  
+  /* Styling for the login link */
+  .login-link {
+    margin-top: 24px;
+    text-align: center;
+  }
+  
+  .login-link a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
