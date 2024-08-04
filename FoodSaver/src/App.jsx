@@ -14,6 +14,7 @@ import Login from './components/Auth/Login';
 import Signup from './components/Auth/Register'
 // import ProtectedRoute from './components/Auth/ProtectedRoute';
 import Dashboard from './components/Dashboard';
+import PostDetails from './components/PostDetails';
 const App = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<HomePage></HomePage>} />
         <Route path="/food-post" element={<FoodPostPage/>} />
+        <Route path="/food-post/details/:id" element={<PostDetails/>} />
         <Route path="/about" element={<AboutPage/>} />
         <Route path="/contact" element={<ContactPage/>} />
         {/* <Route
@@ -33,9 +35,8 @@ const App = () => {
                 </ProtectedRoute>
               }
             /> */}
-
-            {/* if not working login and all */}
-            <Route path='/dashboard' element={<Dashboard/>}/>
+        {/* if not working login and all */}
+        <Route path='/dashboard' element={<Dashboard/>}/>
         {/* <Route path="/profile" element={<ProfilePage/>} /> */}
         <Route path="/signin" element={<Login />} />
         <Route path="/signup" element={<Signup />} />

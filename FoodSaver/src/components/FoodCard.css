@@ -1,23 +1,25 @@
-.food-card {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    .card {
+      border: 1px solid #ccc;
+     border-radius: 5px;
+    }
+    
+    .card-body {
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      transition: transform 0.2s;
+    }
+    
+    .card-body:hover {
+      transform: translateY(-5px);
+      }
+      
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
   }
   
-  .food-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .food-card h2 {
-    margin-top: 0;
-    color: #333;
-  }
-  
-  .food-card p {
-    margin: 5px 0;
+  .card-text {
+    margin-bottom: 10px;
   }
   
